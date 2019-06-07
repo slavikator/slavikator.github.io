@@ -19,7 +19,13 @@ nav a {
 }
 
 header {
-  background-color: #888;
+  background-color: #999;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
 }
 
 header h1, h2 {
@@ -27,6 +33,9 @@ header h1, h2 {
   padding: 10px;
 }
 
+.myTable {
+  margin: 40px;
+}
 
 table {
   border: 1px solid black;
@@ -47,4 +56,20 @@ td {
   border: 1px solid black;
   width: 200px;
   height: 200px;
+}
+
+.column {
+  float: left;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.row {
+  display: table;
 }
