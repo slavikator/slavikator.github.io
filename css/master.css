@@ -23,10 +23,10 @@ nav {
   width: 100%;
 	background: rgba(34,34,34,0.0);
 	padding: 18px;
-	-webkit-transition: all ease-out .5s;
-  -moz-transition: all ease-out .5s;
-  -o-transition: all ease-out .5s;
-  transition: all ease-out .5s;
+	-webkit-transition: all ease-in .4s;
+  -moz-transition: all ease-in .4s;
+  -o-transition: all ease-in .4s;
+  transition: all ease-in .4s;
 }
 
 .navactive {
