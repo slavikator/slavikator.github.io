@@ -2,6 +2,9 @@
   @import url('https://fonts.googleapis.com/css?family=Acme|Montserrat&display=swap')
 }
 
+@font-face { font-family: 'MyIconfont'; src: url('MyIconfont-webfont.eot'); src: url('MyIconfont-webfont.eot?#iefix') format('embedded-opentype'), url('MyIconfont-webfont.woff') format('woff'), url('MyIconfont-webfont.ttf') format('truetype'), url('MyIconfont-webfont.svg#MyIconfont') format('svg'); font-weight: normal; font-style: normal; }
+@import url("css/myiconfont.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +22,11 @@ body {
 
 nav {
   position: fixed;
-	z-index: 1000;
+  z-index: 1000;
   width: 100%;
-	background: rgba(34,34,34,0.0);
-	padding: 18px;
-	-webkit-transition: all ease-in .4s;
+  background: rgba(34, 34, 34, 0.0);
+  padding: 18px;
+  -webkit-transition: all ease-in .4s;
   -moz-transition: all ease-in .4s;
   -o-transition: all ease-in .4s;
   transition: all ease-in .4s;
@@ -70,7 +73,6 @@ header {
   margin-top: 64px;
   margin-bottom: 64px;
 } */
-
 article {
   margin: 32px;
 }
