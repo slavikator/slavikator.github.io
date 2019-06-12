@@ -51,38 +51,34 @@
   </article>
 
   <article id="contact">
-    <section class="contactForm">
-      <h2>Contact</h2>
-      <form class="contactForm" action="index.html" method="get">
-        First Name:<br>
-        <input type="text" name="firstname" value="" required><br>
-        Last Name:<br>
-        <input type="text" name="lastname" value=""><br>
-        Email:<br>
-        <input type="email" name="email" value="" required><br>
-        <br>
-        Gender:<br>
+    <h2>Contact</h2>
+    <form class="contactForm" action="index.html" method="get">
+      <section>
+        <input type="text" name="firstname" value="" required placeholder="Your Firstname"><br>
+        <input type="text" name="lastname" value="" placeholder="Your Lastname"><br>
+        <input type="email" name="email" value="" required placeholder="Your email"><br>
+      </section>
+      <section>
         <input type="radio" name="gender" value="male" checked> Male <br>
         <input type="radio" name="gender" value="female"> Female <br>
-        <input type="radio" name="gender" value="other"> Other <br>
-        <br>
+        <input type="radio" name="gender" value="other"> Other
+      </section>
+      <section>
         Age:
         <select class="" name="age">
           <option value="18-25">18-25</option>
           <option value="18-25">25-30</option>
           <option value="18-25">30-40</option>
           <option value="18-25">40-50</option>
-        </select><br>
-        <br>
-        Message:<br>
-        <br>
-        <textarea name="message" rows="8" cols="80" placeholder="Type your message here"></textarea><br>
-        <br>
-        <input type="checkbox" name="callback" value=""> Callback request <input type="number" name="phone" value="" placeholder="Your phone number"><br>
-        <br>
-        <input type="submit" name="submit" value="Submit">
-      </form>
-    </section>
+        </select>
+      </section>
+      <br>
+      <textarea name="message" rows="8" cols="80" placeholder="Type your message here"></textarea><br>
+      <br>
+      <input type="checkbox" name="callback" value=""> Callback request <input type="number" name="phone" value="" placeholder="Your phone number"><br>
+      <br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
   </article>
   <footer>
     <h4>2019</h4>
