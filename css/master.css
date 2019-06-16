@@ -54,10 +54,6 @@ header {
 .header-title {
   padding-top: 130px;
   text-align: center;
-  ;
-}
-
-.header-title, h1 {
   text-shadow: 1px 1px #fff;
   letter-spacing: 20px;
 }
