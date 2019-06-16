@@ -52,34 +52,49 @@
 
   <article id="contact">
     <h2>Contact</h2>
-    <form class="contactForm" action="index.html" method="get">
-      <section>
-        <input type="text" name="firstname" value="" required placeholder="Your Firstname"><br>
-        <input type="text" name="lastname" value="" placeholder="Your Lastname"><br>
-        <input type="email" name="email" value="" required placeholder="Your email"><br>
-      </section>
-      <section>
-        <input type="radio" name="gender" value="male" checked> Male <br>
-        <input type="radio" name="gender" value="female"> Female <br>
-        <input type="radio" name="gender" value="other"> Other
-      </section>
-      <section>
-        Age:
-        <select class="" name="age">
-          <option value="18-25">18-25</option>
-          <option value="18-25">25-30</option>
-          <option value="18-25">30-40</option>
-          <option value="18-25">40-50</option>
-        </select>
-      </section>
-      <br>
-      <textarea name="message" rows="8" cols="80" placeholder="Type your message here"></textarea><br>
-      <br>
-      <input type="checkbox" name="callback" value=""> Callback request <input type="number" name="phone" value="" placeholder="Your phone number"><br>
-      <br>
-      <input type="submit" name="submit" value="Submit">
+    <form action="index.html" method="get">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" value="" required placeholder="Your email.."><br>
+
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="ukraine">Select Cauntry</option>
+        <option value="ukraine">Ukraine</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="age">Age</label>
+      <select class="age" name="age">
+        <option value="18-25">Select the range for your age</option>
+        <option value="18-25">18-25</option>
+        <option value="18-25">25-30</option>
+        <option value="18-25">30-40</option>
+        <option value="18-25">40-50</option>
+      </select>
+
+      <label for="gender">Gender:</label><br>
+      <input type="radio" name="gender" value="male" checked> Male <br>
+      <input type="radio" name="gender" value="female"> Female <br>
+      <input type="radio" name="gender" value="other"> Other <br><br>
+
+
+
+      <label for="subject">Your message</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
     </form>
   </article>
+
   <footer>
     <h4>2019</h4>
   </footer>
