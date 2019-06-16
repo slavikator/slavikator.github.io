@@ -63,16 +63,15 @@ header {
   padding-top: 80px;
 }
 
-article {
-  margin: 32px;
-}
-
-section {
-  margin: 32px;
+#content {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 1em;
 }
 
 footer {
-  width: 100%;
+  grid-template-columns: 1fr;
   height: 100px;
   background-color: #888;
   background-image: linear-gradient(#888, #222);
