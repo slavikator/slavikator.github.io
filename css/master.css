@@ -140,7 +140,7 @@ form {
 
 #js_games {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 #fibonacci {
@@ -149,4 +149,39 @@ form {
 
 #random {
   margin: 2em;
+}
+
+#pifagor {
+  margin: 1em;
+  display: table;
+  border-collapse: collapse;
+}
+
+#pifagor div {
+  border: 1px solid #000;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.cell-main {
+  background-color: green;
+
+}
+
+.cell-umain {
+  background-color: yellow;
+}
+
+.cell-omain {
+  background-color: aqua;
 }
