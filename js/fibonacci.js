@@ -1,6 +1,6 @@
 function generateFibonacciSequence(n) {
   var fibo = [1, 1];
-  if (n ==0) {
+  if (n == 0) {
     return "null";
   }
   if (n == 1) {
