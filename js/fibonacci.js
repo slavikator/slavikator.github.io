@@ -1,5 +1,11 @@
 function generateFibonacciSequence(n) {
   var fibo = [1, 1];
+  if (n ==0) {
+    return "null";
+  }
+  if (n == 1) {
+    return 1 ;
+  }
   for (var i = 2; i < n; i++)
   fibo.push(fibo[i -1] + fibo[i -2])
   return fibo;
