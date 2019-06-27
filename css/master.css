@@ -13,6 +13,11 @@ a {
   color: #333;
 }
 
+h2, h3 {
+  text-align: center;
+  margin: 2em;
+}
+
 body {
   font-family: 'Acme', sans-serif;
   font-size: 1.2em;
