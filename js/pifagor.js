@@ -6,6 +6,7 @@ for (var i = 1; i <= 9; i++) {
     $class = (i == j) ? 'cell cell-main' : 'cell';
     $class = (i > j) ? 'cell cell-umain' : $class;
     $class = (i < j) ? 'cell cell-omain' : $class;
+    
     cell.setAttribute('class', $class);
     cell.innerText = i * j;
     row.appendChild(cell);
