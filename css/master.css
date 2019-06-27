@@ -139,8 +139,8 @@ form {
 }
 
 #js_games {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  margin-top: 10em;
 }
 
 #fibonacci {
@@ -152,7 +152,7 @@ form {
 }
 
 #pifagor {
-  margin: 1em;
+  margin: 2em;
   display: table;
   border-collapse: collapse;
 }
