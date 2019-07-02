@@ -25,7 +25,5 @@ btnGet.addEventListener('click', () => {
     XHR.send();
   }
 
-
-
   console.log(res);
 }, false);
