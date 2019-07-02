@@ -93,7 +93,7 @@ article section p {
   grid-column-gap: 1em;
 }
 
-#curr-select {
+#currSelect {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 1em;
