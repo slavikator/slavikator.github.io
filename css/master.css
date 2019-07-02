@@ -93,6 +93,17 @@ article section p {
   grid-column-gap: 1em;
 }
 
+#curr-select {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+#curResult {
+  padding: 2em;
+}
+
 footer {
   grid-template-columns: 1fr;
   background-color: #999;
