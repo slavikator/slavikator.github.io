@@ -6,25 +6,17 @@ btnGet.addEventListener('click', () => {
     console.error('Check your date');
     return null;
   }
-
-  const XHR = new XMLHttpRequest();
-
-  let i = Number(s_date);
-  while (i < Number(e_date)) {
-    i++;
+  for (var i = Number(s_date); i <= Number(e_date); i++) {
+    const XHR = new XMLHttpRequest();
     var BASE_URL = `https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=${currency.value}&date=${i}&json`;
     XHR.addEventListener('readystatechange', () => {
-      if ((XHR.readyState === 4) && (XHR.status === 200)) {
+      if ((XHR.readyState === 4)  && (XHR.status === 200)) {
         var data = JSON.parse(XHR.responseText);
         res.push(data[0].rate);
       }
-
     }, false);
-
     XHR.open('GET', BASE_URL);
     XHR.send();
-
   }
-
   console.log(res);
 }, false);
